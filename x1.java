@@ -149,6 +149,8 @@ stroke(0,0,0,0);
   ellipse(x-10,y-73,8,8);
   fill(255, 255, 255);
   text( "James", x-10, y-20 );
+  text(mouseX,50,50);
+  text(mouseY,50,70);
 }
 
 
@@ -166,6 +168,8 @@ void keyPressed() {
     exit();                           // press 'q' key to QUIT.
   }
 }
+
+
 
 
 
